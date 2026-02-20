@@ -17,7 +17,7 @@ interface ChatBotProps {
 }
 
 // ─── API ──────────────────────────────────────────────────────────────────────
-const CHAT_API_URL = "http://127.0.0.1:8000/api/chat";
+const CHAT_API_URL = "https://rag-backend-1-x6fr.onrender.com/api/chat";
 
 async function sendMessage(question: string): Promise<string> {
   try {
