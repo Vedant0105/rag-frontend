@@ -137,7 +137,7 @@ export default function ChatBot({ fileName, onReset }: ChatBotProps) {
     },
   ]);
   const [input, setInput] = useState("");
-  const [mode, setMode] = useState<Mode>("file_only");
+  const [mode] = useState<Mode>("file_only");
   const [loading, setLoading] = useState(false);
   const bottomRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLTextAreaElement>(null);
