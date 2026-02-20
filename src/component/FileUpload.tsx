@@ -69,7 +69,7 @@ export default function FileUpload() {
     formData.append("file", file);
 
     try {
-      const response = await fetch("https://rag-backend-1-x6fr.onrender.com/api/upload", {
+      const response = await fetch("https://rag-backend-production-662f.up.railway.app/api/upload", {
         method: "POST",
         body: formData,
       });
